@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800&display=swap');
+
+* {
+    font-family: 'Montserrat';
+}
+
+#all{
+    max-width: 68rem;
+    margin: 0 auto;
+}
+#header{
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: #2c3e50;
+}
+#header > .main-poto{
+    border-radius: 100%;
+    display: inline-block;
+    padding: 0.5rem;
+    background-color: rgb(255, 255, 255,0.05);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    margin-bottom: 1.5rem;
+    
+}
+#header > .main-poto > img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    display: block;
+}
+
+#header > h2{
+    color:rgba(255, 255, 255, 0.5);
+    margin-bottom: 1.5rem;
+}
+
+#header > .sns-list{
+    padding-left: 1%;
+}
+#header > .sns-list > li{   
+    display: inline-block;
+    border-radius: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    background-color: rgb(255, 255, 255,0.05);
+    width: 2rem;
+    height: 2rem;
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1rem;
+}
+#header > .sns-list > li:hover{
+    border:1px solid rgba(255,255,255,0.25);
+    background-color: rgba(255,255,255,0.2);
+}
+#header > .sns-list > li a{
+    color:rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+}
+#header > .sns-list > li .label{
+display: none;
+} 
+
+#main > .hobbylist{
+    display: flex;
+    margin: 2rem;
+}
+
+#main > .hobbylist > div{
+    flex-grow: 1;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+#main > .hobbylist img {
+    width:250px;
+    height: 250px;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    display: block;
+}
+
+#main > .hobbylist h3{
+
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    padding: 0.5rem;
+    text-align: center;
+    margin: 0%;
+    background-color:#4c5966;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 0.8rem;
+   width: 235px;
+    
+}
+#main > .hobbylist  h3:hover{
+    background-color: #64686d;
+}
+
+#main > .hobbylist a{
+    display: block;
+    margin-bottom: 1.5rem;
+} 
+
+
+#footer{
+    background-color: #2c3e50;
+    text-align: center;
+    margin: 2rem;
+}
+#footer > h4{
+    color:rgba(255, 255, 255, 0.8);
+}
+}
