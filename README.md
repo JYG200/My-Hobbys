@@ -1,5 +1,6 @@
+#MY Hobby
 
-# 페이지를 만들때 header, main, footer 크게 3덩어리로 나누어 만들었습니다.
+### 페이지를 만들때 header, main, footer 크게 3덩어리로 나누어 만들었습니다.
  
  ># 1. header
  >img 테그로 프로필 이미지를 불러오고 CSS에서 크기와 모양을 다듬었습니다.
